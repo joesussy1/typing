@@ -6,5 +6,5 @@ colors = {
     "END": "\033[0m"
 }
 
-def print_color(statement, color):
-    print(colors[color] + statement + colors["END"])
+def colored(statement, color):
+    return colors[color] + statement + colors["END"]
